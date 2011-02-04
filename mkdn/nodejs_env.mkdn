@@ -7,7 +7,15 @@
 * express (フレームワーク
 * nodeunit (ユニットテスト
 
-## nvm
+## nvmとは
 node.jsのバージョンをスイッチするツール
 
 rubyでいうrvmのようなもの。
+
+安定版と開発版を切り替えるのに便利。
+
+### 入れ方
+
+$ git clone git://github.com/creationix/nvm.git ~/.nvm
+
+$ source ~/.nvm/nvm.sh
