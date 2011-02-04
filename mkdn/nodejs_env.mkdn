@@ -36,3 +36,15 @@ $ source ~/.nvm/nvm.sh
 
     $ nvm use v0.3.7
 
+# npm
+## 概要
+パッケージ管理システム
+
+## インストール
+nvmを使用すると一緒に入る
+
+## 使い方
+
+パッケージ名を指定してインストール
+
+    $ npm install express
