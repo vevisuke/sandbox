@@ -8,19 +8,28 @@
 * express (フレームワーク
 * nodeunit (ユニットテスト
 
-## nvmとは
+## nvm
 node.jsのバージョンをスイッチするツール
 
 rubyでいうrvmのようなもの。
 
 安定版と開発版を切り替えるのに便利。
 
-### 入れ方
+### インストール
 
 $ git clone git://github.com/creationix/nvm.git ~/.nvm
 
 $ source ~/.nvm/nvm.sh
 
-$ nvm install v0.3.7 #バージョンを指定してインストール。この時npmも自動で入る
+.bash_profileに以下を追記しておく。
 
-$ nvm use v0.3.7 #使用するバージョンを指定する事でバージョンをスイッチする
+    source ~/.nvm/nvm.sh
+
+### 使い方
+
+バージョンを指定してnode.jsをインストールする。この時npmも自動で入る
+$ nvm install v0.3.7
+
+使用するバージョンを指定する事でバージョンをスイッチする
+$ nvm use v0.3.7
+
