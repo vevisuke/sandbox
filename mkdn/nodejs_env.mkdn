@@ -28,8 +28,9 @@ $ source ~/.nvm/nvm.sh
 ### 使い方
 
 バージョンを指定してnode.jsをインストールする。この時npmも自動で入る
-$ nvm install v0.3.7
+    $ nvm install v0.3.7
 
 使用するバージョンを指定する事でバージョンをスイッチする
-$ nvm use v0.3.7
+
+    $ nvm use v0.3.7
 
