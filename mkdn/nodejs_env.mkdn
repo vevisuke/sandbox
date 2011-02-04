@@ -3,6 +3,7 @@
 使うもの
 
 * nvm (バージョンスイッチ
+* npm (パッケージ管理システム
 * node-inspector (デバッガ
 * express (フレームワーク
 * nodeunit (ユニットテスト
@@ -19,3 +20,7 @@ rubyでいうrvmのようなもの。
 $ git clone git://github.com/creationix/nvm.git ~/.nvm
 
 $ source ~/.nvm/nvm.sh
+
+$ nvm install v0.3.7 #バージョンを指定してインストール。この時npmも自動で入る
+
+$ nvm use v0.3.7 #使用するバージョンを指定する事でバージョンをスイッチする
