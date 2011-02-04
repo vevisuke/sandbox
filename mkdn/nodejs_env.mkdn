@@ -1,0 +1,12 @@
+# node.jsの開発環境構築
+
+使うもの
+* nvm (バージョンスイッチ
+* node-inspector (デバッガ
+* express (フレームワーク
+* nodeunit (ユニットテスト
+
+## nvm
+node.jsのバージョンをスイッチするツール
+
+rubyでいうrvmのようなもの。
